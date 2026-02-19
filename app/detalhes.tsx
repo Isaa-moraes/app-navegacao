@@ -13,7 +13,7 @@ export default function Detalhes() {
             <Text style={styles.descricao}>The Vampire Diaries</Text>
 
             <View></View>
-            <TouchableOpacity onPress={() => router.back()}>
+            <TouchableOpacity onPress={() => router.push('/')}>
                 <Text style={styles.buttonText}>Voltar para a tela inicial</Text>
             </TouchableOpacity>
 
